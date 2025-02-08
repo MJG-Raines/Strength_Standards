@@ -4,7 +4,7 @@ from src.services.data_processor import analyze_powerlifting_data
 results = analyze_powerlifting_data(
     sex='M',      # 'M' for male, 'F' for female
     age=50,       # Any age
-    bodyweight=220 # Any weight in pounds
+    bodyweight=270 # Any weight in pounds
 )
 
 print("\nTop 25 All-Time:")

@@ -27,3 +27,6 @@ Thumbs.db
 config.ini
 secrets.*
 credentials.*
+
+# Large data files
+src/data/raw/*.csv
