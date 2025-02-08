@@ -99,7 +99,7 @@ def analyze_powerlifting_data(sex: str, age: int, bodyweight: float):
 
     # Get results
     # Format output to round numbers nicely
-    all_time = filtered_data.nlargest(25, 'BenchLBS')[['Name', 'BenchLBS', 'BodyweightLBS', 'Date']]
+    all_time = filtered_data.nlargest(50, 'BenchLBS')[['Name', 'BenchLBS', 'BodyweightLBS', 'Date']]
     all_time['BenchLBS'] = all_time['BenchLBS'].round(2)
     all_time['BodyweightLBS'] = all_time['BodyweightLBS'].round(2)
     
